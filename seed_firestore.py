@@ -18,32 +18,24 @@ def seed_database():
             "category": "Data Science",
             "skill_level": "Beginner",
             "estimated_hours": 15,
-            "description": "Master Python fundamentals, NumPy, Pandas, and Data Visualization with Matplotlib.",
+            "description": "Comprehensive learning path covering foundational Computer Science theory (MIT & Harvard) followed by practical Data Science implementation (Coursera & edX).",
             "steps": [
                 {
                     "step_number": 1,
-                    "title": "Python Syntax & Basics",
-                    "description": "Learn variables, data types, loops, and control flow in Python.",
+                    "title": "THEORY FIRST: Computational Thinking & Math Foundations",
+                    "description": "Master algorithmic complexity (Big-O), memory allocation, and discrete mathematics for data science.",
                     "resources": [
-                        {"title": "Official Python Tutorial", "type": "doc", "url": "https://docs.python.org/3/tutorial/"},
-                        {"title": "Python for Beginners", "type": "video", "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"}
+                        {"title": "MIT 6.0001: Intro to Computer Science & Python (MIT OpenCourseWare)", "type": "university_course", "url": "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/"},
+                        {"title": "Harvard CS50P: Introduction to Programming with Python (Harvard University / edX)", "type": "university_course", "url": "https://cs50.harvard.edu/python/"}
                     ]
                 },
                 {
                     "step_number": 2,
-                    "title": "Data Analysis with Pandas & NumPy",
-                    "description": "Data wrangling, cleaning dataframes, and matrix operations.",
+                    "title": "PRACTICAL SKILL COURSES: Data Manipulation & Analysis",
+                    "description": "Apply core theory through vectorized computing with NumPy, Pandas dataframes, and data visualization.",
                     "resources": [
-                        {"title": "Pandas Getting Started", "type": "doc", "url": "https://pandas.pydata.org/docs/getting_started/index.html"},
-                        {"title": "NumPy Quickstart", "type": "doc", "url": "https://numpy.org/doc/stable/user/quickstart.html"}
-                    ]
-                },
-                {
-                    "step_number": 3,
-                    "title": "Data Visualization",
-                    "description": "Create charts, histograms, and plots with Seaborn and Matplotlib.",
-                    "resources": [
-                        {"title": "Matplotlib Pyplot Tutorial", "type": "doc", "url": "https://matplotlib.org/stable/tutorials/introductory/pyplot.html"}
+                        {"title": "Applied Data Science with Python Specialization (University of Michigan / Coursera)", "type": "provider_course", "url": "https://www.coursera.org/specializations/data-science-python"},
+                        {"title": "Google Data Analytics Professional Certificate (Google / Coursera)", "type": "provider_course", "url": "https://www.coursera.org/professional-certificates/google-data-analytics"}
                     ]
                 }
             ],
@@ -55,30 +47,24 @@ def seed_database():
             "category": "Web Development",
             "skill_level": "Intermediate",
             "estimated_hours": 30,
-            "description": "Build end-to-end web applications with HTML, CSS, JavaScript, and Node.js/FastAPI.",
+            "description": "Full-stack path structuring Web Architecture Theory first (Harvard & Oxford) before practical frontend/backend skill courses (Meta & Udacity).",
             "steps": [
                 {
                     "step_number": 1,
-                    "title": "HTML5 & CSS3 Styling",
-                    "description": "Semantic HTML tags, Flexbox, Grid, and responsive web design.",
+                    "title": "THEORY FIRST: Web Architecture & Internet Protocol Foundations",
+                    "description": "Understand HTTP/HTTPS protocols, TCP/IP networking, DOM tree algorithms, and database relational theory.",
                     "resources": [
-                        {"title": "MDN Web Docs - Learn HTML/CSS", "type": "doc", "url": "https://developer.mozilla.org/en-US/docs/Learn"}
+                        {"title": "Harvard CS50W: Web Programming with Python and JavaScript (Harvard University)", "type": "university_course", "url": "https://cs50.harvard.edu/web/"},
+                        {"title": "Stanford CS142: Web Applications (Stanford University)", "type": "university_course", "url": "https://web.stanford.edu/class/cs142/"}
                     ]
                 },
                 {
                     "step_number": 2,
-                    "title": "Modern JavaScript & Async JS",
-                    "description": "ES6+ syntax, Promises, async/await, and DOM manipulation.",
+                    "title": "PRACTICAL SKILL COURSES: Modern Full-Stack Implementation",
+                    "description": "Build end-to-end full-stack web applications with FastAPI, React, RESTful APIs, and Cloud deployment.",
                     "resources": [
-                        {"title": "JavaScript.info Guide", "type": "article", "url": "https://javascript.info/"}
-                    ]
-                },
-                {
-                    "step_number": 3,
-                    "title": "Backend APIs with FastAPI",
-                    "description": "RESTful endpoints, request validation, and database connections.",
-                    "resources": [
-                        {"title": "FastAPI First Steps", "type": "doc", "url": "https://fastapi.tiangolo.com/tutorial/first-steps/"}
+                        {"title": "Meta Front-End & Back-End Developer Certificates (Meta / Coursera)", "type": "provider_course", "url": "https://www.coursera.org/meta"},
+                        {"title": "Full Stack Web Developer Nanodegree (Udacity)", "type": "provider_course", "url": "https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd0044"}
                     ]
                 }
             ],
@@ -90,22 +76,24 @@ def seed_database():
             "category": "AI/ML",
             "skill_level": "Intermediate",
             "estimated_hours": 25,
-            "description": "Understand Supervised and Unsupervised Learning algorithms using Scikit-Learn.",
+            "description": "Rigorous AI roadmap covering Linear Algebra & Probability Theory first (Stanford & MIT), followed by applied ML skill courses (DeepLearning.AI & Google Cloud).",
             "steps": [
                 {
                     "step_number": 1,
-                    "title": "Linear Regression & Classification",
-                    "description": "Feature scaling, train/test split, and model evaluation metrics.",
+                    "title": "THEORY FIRST: Mathematical Principles & Machine Learning Theory",
+                    "description": "Study gradient descent mathematical proofs, matrix calculus, probability distributions, and loss minimization theory.",
                     "resources": [
-                        {"title": "Scikit-Learn Getting Started", "type": "doc", "url": "https://scikit-learn.org/stable/getting_started.html"}
+                        {"title": "Stanford CS229: Machine Learning (Stanford University / Andrew Ng)", "type": "university_course", "url": "https://cs229.stanford.edu/"},
+                        {"title": "MIT 18.06: Linear Algebra & Optimization (MIT OpenCourseWare)", "type": "university_course", "url": "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/"}
                     ]
                 },
                 {
                     "step_number": 2,
-                    "title": "Decision Trees & Random Forests",
-                    "description": "Ensemble methods and hyperparameter tuning.",
+                    "title": "PRACTICAL SKILL COURSES: Applied Machine Learning & MLOps",
+                    "description": "Implement supervised and unsupervised algorithms with Scikit-Learn, PyTorch, and Vertex AI MLOps pipelines.",
                     "resources": [
-                        {"title": "ML Crash Course - Google Developers", "type": "doc", "url": "https://developers.google.com/machine-learning/crash-course"}
+                        {"title": "Machine Learning Specialization (DeepLearning.AI & Stanford / Coursera)", "type": "provider_course", "url": "https://www.coursera.org/specializations/machine-learning-introduction"},
+                        {"title": "Google Cloud Machine Learning Engineer Learning Path (Google Cloud Skills Boost)", "type": "provider_course", "url": "https://www.cloudskillsboost.google/paths/17"}
                     ]
                 }
             ],
